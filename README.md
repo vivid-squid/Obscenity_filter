@@ -1,8 +1,6 @@
 # Obscenity Remover
 
-=======================================
 = Chrome Extension - NLP Text Filter =
-=======================================
 
 A local Chrome extension that filters out unwanted words from webpages using a custom dictionary and a native Python backend. Supports masking or removing words, site whitelisting, and password-protected settings.
 

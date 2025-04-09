@@ -1,0 +1,12 @@
+ObscenityRemover/
+├── extension/               # Chrome extension files
+│   ├── manifest.json        # Extension manifest (permissions, content scripts, etc.)
+│   ├── background.js        # Background script (runs as a service worker in MV3)
+│   ├── contentScript.js     # Content script injected into pages to filter text
+│   ├── options.html         # Options page HTML (extension settings UI)
+│   └── options.js           # Options page JS (logic for password and settings UI)
+├── native_host/             # Native messaging host (Python backend)
+│   ├── filter.py            # Python script performing NLP filtering
+│   ├── dictionary.json      # JSON file of prohibited words (user-editable list)
+│   └── com.obscenity.remover.json  # Native messaging host manifest (for Chrome to find the Python script)
+└── README.md                # Project documentation (overview, installation, usage)
